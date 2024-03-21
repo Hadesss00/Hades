@@ -1,0 +1,201 @@
+body {
+    background-image: linear-gradient(to bottom, white, black);
+  }
+  
+  @font-face {
+    font-family: myFirstFont;
+    src: url(antikythera.ttf);
+  }
+  
+  .header-title-wrapper {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .header-title-wrapper .logo {
+    width: 20%;
+    margin-top: 50px;
+  }
+  
+  .header-title-wrapper h1 {
+    font-family: myFirstFont;
+    font-size: 60px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+    margin-top: 60px;
+  }
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.social-menu img.facebook {
+    width: 35px;
+    margin-top: 13px;
+    transition: .3s;
+}
+
+.social-menu img.twitter {
+    width: 30px;
+    margin-top: 14px;
+    transition: .3s;
+}
+
+.social-menu img.youtube {
+    width: 50px;
+    margin-top: 6px;
+    transition: .3s;
+}
+
+.social-menu img.instagram {
+    width: 60px;
+    margin-top: 1px;
+    transition: .3s;
+}
+
+.social-menu img.KoFi{
+    width: 40px;
+    margin-top: 19px;
+    margin-left: 5px;
+    transition: .3s;
+}
+
+.social-menu img.threads {
+    width: 55px;
+    margin-top: 2px;
+    transition: .3s;
+}
+
+.social-menu img.pinterest {
+    width: 35px;
+    margin-top: 12px;
+    transition: .3s;
+}
+
+.social-menu img.tiktok {
+    width: 33px;
+    margin-top: 13px;
+    margin-left: 3px;
+    transition: .3s;
+}
+
+.social-menu img.itch {
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 0px;
+    transition: .3s;
+}
+
+.social-menu img.github {
+    width: 38px;
+    margin-top: 10px;
+    margin-left: 0px;
+    transition: .3s;
+}
+
+
+
+
+.social-menu a:hover img.social-icon {
+    filter: brightness(0) invert(1);
+}
+  
+.social-menu ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.social-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+    margin-top: 400px;
+    transform: scale(0.9);
+}
+
+
+.social-menu ul li a:hover{
+    animation: bellRing 0.9s both;
+    /* transform: translate(0, -10%); */
+
+}
+
+@keyframes bellRing {
+    0%,
+    100% {
+      transform-origin: top;
+    }
+  
+    15% {
+      transform: rotateZ(10deg);
+    }
+  
+    30% {
+      transform: rotateZ(-10deg);
+    }
+  
+    45% {
+      transform: rotateZ(5deg);
+    }
+  
+    60% {
+      transform: rotateZ(-5deg);
+    }
+  
+    75% {
+      transform: rotateZ(2deg);
+    }
+  }
+
+
+.social-menu ul li:nth-child(1) a:hover{
+    background-color: rgba(0, 0, 0, 0.829);
+}
+.social-menu ul li:nth-child(2) a:hover{
+    background-color: #111111;
+}
+.social-menu ul li:nth-child(3) a:hover{
+    background-color: #000000;
+}
+.social-menu ul li:nth-child(4) a:hover{
+    background-color: #000;
+}
+.social-menu ul li:nth-child(5) a:hover{
+    background-color: rgba(0, 0, 0, 0.829);
+}
+.social-menu ul li:nth-child(6) a:hover{
+    background-color: #0e0e0e;
+}
+.social-menu ul li:nth-child(7) a:hover{
+    background-color: #050505;
+}
+.social-menu ul li:nth-child(8) a:hover{
+    background-color: #000;
+}
+.social-menu ul li:nth-child(9) a:hover{
+    background-color: #000;
+}
+.social-menu ul li:nth-child(10) a:hover{
+    background-color: #000;
+}
